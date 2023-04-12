@@ -1,0 +1,11 @@
+CREATE TABLE `product_table` (
+  `product_id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `product_no` varchar(100) NOT NULL,
+  `product_name` varchar(100) NOT NULL,
+  `product_desc` varchar(250) NOT NULL,
+  `product_disc` double NOT NULL,
+  `product_qnt` int(11) NOT NULL,
+  `product_price` double NOT NULL,
+  `product_img_name` varchar(100) NOT NULL,
+  `product_status` varchar(100) NOT NULL
+)
